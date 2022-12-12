@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp28.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp28"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
+        <Image Margin="105,10,469,97" Source="2022-12-12_13-16-32.png" Stretch="Fill"/>
+        <Image Margin="456,10,114,97" Source="2022-12-12_13-25-42.png" Stretch="Fill"/>
+        <Label Content="Лебединое озеро" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="105,327,0,0" FontFamily="Calibri Bold" Foreground="Gold" FontSize="20" />
+        <Label Content="И.П Чайковский" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="105,359,0,0" FontSize="15"/>
+        <Label Content="Цена от 300 руб" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="105,383,0,0"/>
+        <Label Content="Летучая мышь" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="456,327,0,0" FontFamily="Calibri Bold" Foreground="Gold" FontSize="20" />
+        <Label Content="И. Штраус" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="456,359,0,0" FontSize="15"/>
+        <Label Content="Цена от 300 руб" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="456,383,0,0"/>
+    </Grid>
+</Window>
